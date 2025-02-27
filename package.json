@@ -1,0 +1,21 @@
+{
+  "name": "leetdavid-theme",
+  "displayName": "leetdavid-theme",
+  "description": "My theme, dependency free.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "leetdavid theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/leetdavid theme-color-theme.json"
+      }
+    ]
+  }
+}
