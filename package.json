@@ -2,6 +2,12 @@
   "name": "clean-black-theme",
   "displayName": "Clean Black Theme",
   "description": "A sleek, pitch-black AMOLED-friendly theme for VS Code.",
+  "repository": {
+    "directory": "leetdavid-theme",
+    "type": "git",
+    "url": "https://github.com/leetdavid/leetdavid-theme"
+  },
+  "publisher": "leetdavid",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.97.0"
