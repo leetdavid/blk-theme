@@ -1,7 +1,7 @@
 {
-  "name": "leetdavid-theme",
-  "displayName": "leetdavid-theme",
-  "description": "My theme, dependency free.",
+  "name": "clean-black-theme",
+  "displayName": "Clean Black Theme",
+  "description": "A sleek, pitch-black AMOLED-friendly theme for VS Code.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.97.0"
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "leetdavid theme",
+        "label": "Clean Black Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/leetdavid theme-color-theme.json"
+        "path": "./themes/clean_black.json"
       }
     ]
   }
