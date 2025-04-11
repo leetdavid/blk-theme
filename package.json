@@ -20,11 +20,6 @@
       {
         "label": "Clean Black",
         "uiTheme": "vs-dark",
-        "path": "./themes/clean-black.json"
-      },
-      {
-        "label": "Clean Black VSCode One",
-        "uiTheme": "vs-dark",
         "path": "./themes/clean-black-vscode-one.json"
       }
     ]
