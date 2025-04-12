@@ -1,16 +1,131 @@
-# leetdavid-theme README
+# BLK Theme
 
-## Working with Markdown
+<p align="center">
+  <img src="https://raw.githubusercontent.com/leetdavid/blk-theme/main/icon.png" alt="BLK Theme Logo" width="150">
+</p>
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+<p align="center">
+  A sleek, minimalist dark theme for Visual Studio Code with a true black background.
+</p>
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=leetdavid.blk-theme">
+    <img src="https://img.shields.io/visual-studio-marketplace/v/leetdavid.blk-theme.svg?style=flat-square&label=VS%20Marketplace&logo=visual-studio-code" alt="Visual Studio Marketplace Version">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=leetdavid.blk-theme">
+    <img src="https://img.shields.io/visual-studio-marketplace/d/leetdavid.blk-theme.svg?style=flat-square&label=Downloads&logo=visual-studio-code" alt="Visual Studio Marketplace Downloads">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=leetdavid.blk-theme">
+    <img src="https://img.shields.io/visual-studio-marketplace/r/leetdavid.blk-theme.svg?style=flat-square&label=Rating&logo=visual-studio-code" alt="Visual Studio Marketplace Rating">
+  </a>
+</p>
 
-## For more information
+## Features
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- **True Black Background**: Perfect for OLED displays and dark environment coding
+- **High Contrast Syntax Highlighting**: Carefully selected colors for optimal readability
+- **Semantic Highlighting**: Enhanced code understanding with semantic token coloring
+- **Two Variants**: Standard and Borderless options to suit your preference
+- **Optimized for Long Sessions**: Reduced eye strain during extended coding sessions
+- **Language Support**: Extensive language-specific syntax highlighting
 
-**Enjoy!**
+## Installation
+
+1. Open **Extensions** sidebar in VS Code (`Ctrl+Shift+X` / `⌘+Shift+X`)
+2. Search for `BLK Theme`
+3. Click **Install**
+4. Click **Reload** to activate
+5. Open the **Command Palette** (`Ctrl+Shift+P` / `⌘+Shift+P`) and select **Preferences: Color Theme**
+6. Select either **BLK** or **BLK Borderless**
+
+## Screenshots
+
+### JavaScript
+
+![JavaScript Example](https://raw.githubusercontent.com/leetdavid/blk-theme/main/screenshots/javascript.png)
+
+### Python
+
+![Python Example](https://raw.githubusercontent.com/leetdavid/blk-theme/main/screenshots/python.png)
+
+### HTML/CSS
+
+![HTML/CSS Example](https://raw.githubusercontent.com/leetdavid/blk-theme/main/screenshots/html-css.png)
+
+## Theme Variants
+
+### BLK (Standard)
+
+The standard variant includes subtle borders between UI elements for clear visual separation.
+
+### BLK Borderless
+
+The borderless variant minimizes borders for a more seamless, distraction-free coding experience.
+
+## Color Palette
+
+The BLK theme uses a carefully selected color palette:
+
+| Scope         | Color  | Hex       |
+| ------------- | ------ | --------- |
+| Background    | Black  | `#000000` |
+| Foreground    | White  | `#FFFFFF` |
+| Strings       | Green  | `#98c379` |
+| Keywords      | Purple | `#c678dd` |
+| Functions     | Blue   | `#61afef` |
+| Variables     | Red    | `#e06c75` |
+| Types/Classes | Yellow | `#e5c07b` |
+| Constants     | Orange | `#d19a66` |
+| Comments      | Gray   | `#7f848e` |
+| Operators     | Cyan   | `#56b6c2` |
+
+## Recommended Settings
+
+For the best experience with BLK Theme, consider these settings:
+
+```json
+{
+  "editor.fontFamily": "'Comic Code Ligatures', 'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.renderLineHighlight": "all",
+  "workbench.colorCustomizations": {
+    "[BLK]": {
+      // Add your custom overrides here
+    }
+  }
+}
+```
+
+> **Font Recommendation**: [Comic Code Ligatures](https://fonts.ilovetypography.com/fonts/tabular-type-foundry/comic-code) is a fantastic coding font that combines readability with personality.
+
+## Customization
+
+You can customize the BLK theme by adding overrides in your `settings.json`:
+
+```json
+"workbench.colorCustomizations": {
+  "[BLK]": {
+    "editor.background": "#000000",
+    "editor.foreground": "#ffffff",
+    // Add more customizations as needed
+  }
+}
+```
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues or pull requests on the [GitHub repository](https://github.com/leetdavid/blk-theme).
+
+## License
+
+This theme is released under the [MIT License](LICENSE).
+
+## Acknowledgements
+
+BLK Theme was inspired by various dark themes in the VS Code ecosystem, with a focus on creating a true black background experience optimized for OLED displays and night-time coding.
+
+**Enjoy coding in the dark!**
