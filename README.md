@@ -40,17 +40,13 @@
 
 ## Screenshots
 
-### JavaScript
-
-![JavaScript Example](https://raw.githubusercontent.com/leetdavid/blk-theme/main/screenshots/javascript.png)
-
 ### Python
 
 ![Python Example](https://raw.githubusercontent.com/leetdavid/blk-theme/main/screenshots/python.png)
 
-### HTML/CSS
+### Next.js/TSX/Typescript/Javascript
 
-![HTML/CSS Example](https://raw.githubusercontent.com/leetdavid/blk-theme/main/screenshots/html-css.png)
+![HTML/CSS Example](https://raw.githubusercontent.com/leetdavid/blk-theme/main/screenshots/nextjs.png)
 
 ## Theme Variants
 
@@ -58,7 +54,7 @@
 
 The standard variant includes subtle borders between UI elements for clear visual separation.
 
-### BLK Borderless
+### BLK Borderless (Work in Progress)
 
 The borderless variant minimizes borders for a more seamless, distraction-free coding experience.
 
@@ -126,6 +122,6 @@ This theme is released under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-BLK Theme was inspired by various dark themes in the VS Code ecosystem, with a focus on creating a true black background experience optimized for OLED displays and night-time coding.
+BLK Theme was inspired by various dark themes in the VS Code ecosystem, with a focus on creating a true black background experience optimized for OLED displays and night-time coding with a rainbow effect (I like rainbows).
 
 **Enjoy coding in the dark!**
