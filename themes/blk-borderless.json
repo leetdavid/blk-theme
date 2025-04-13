@@ -1836,6 +1836,7 @@
     "badge.background": "#fbbf24",
     "badge.foreground": "#000000",
     "terminal.border": "#ffffff30",
+    "terminalOverviewRuler.border": "#000000",
     "terminal.foreground": "#ffffffc0",
     "terminal.ansiWhite": "#e5e5e5",
     "terminal.ansiBrightWhite": "#e5e5e5",
@@ -2004,8 +2005,10 @@
     "editorInlayHint.background": "#282828",
     "banner.background": "#000",
     "editorInlayHint.foreground": "#676767",
+    "widget.border": "#ffffff80",
+    "sideBarTitle.border": "#ffffff30",
     "quickInput.background": "#000",
-    "widget.border": "#ffffff30",
-    "sideBarTitle.border": "#ffffff30"
+    "quickInputList.focusBackground": "#fbbf24",
+    "quickInputList.focusForeground": "#000000"
   }
 }
