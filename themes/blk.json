@@ -1836,6 +1836,7 @@
     "badge.background": "#fbbf24",
     "badge.foreground": "#000000",
     "terminal.border": "#ffffff30",
+    "terminalOverviewRuler.border": "#000000",
     "terminal.foreground": "#ffffffc0",
     "terminal.ansiWhite": "#e5e5e5",
     "terminal.ansiBrightWhite": "#e5e5e5",

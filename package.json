@@ -8,7 +8,7 @@
     "url": "https://github.com/leetdavid/leetdavid-theme"
   },
   "publisher": "leetdavid",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "engines": {
     "vscode": "^1.97.0"
   },
