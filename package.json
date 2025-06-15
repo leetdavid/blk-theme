@@ -7,8 +7,12 @@
     "type": "git",
     "url": "https://github.com/leetdavid/leetdavid-theme"
   },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
   "publisher": "leetdavid",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "engines": {
     "vscode": "^1.97.0"
   },
@@ -23,5 +27,8 @@
         "path": "./themes/blk.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.5.0"
   }
 }
