@@ -14,7 +14,7 @@
   "publisher": "leetdavid",
   "version": "0.1.6",
   "engines": {
-    "vscode": "^1.97.0"
+    "vscode": "^1.96.2"
   },
   "categories": [
     "Themes"
