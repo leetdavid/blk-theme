@@ -1,7 +1,7 @@
 # BLK Theme
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/leetdavid/blk-theme/main/icon.png" alt="BLK Theme Logo" width="150">
+  <img src="https://raw.githubusercontent.com/leetdavid/blk-theme/tree/main/assets/8x/blk.png" alt="BLK Theme Logo" width="150">
 </p>
 
 <p align="center">

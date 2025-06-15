@@ -3,16 +3,16 @@
   "displayName": "BLK Theme",
   "description": "A sleek, pitch-black AMOLED-friendly theme for VS Code.",
   "repository": {
-    "directory": "leetdavid-theme",
+    "directory": "blk-theme",
     "type": "git",
-    "url": "https://github.com/leetdavid/leetdavid-theme"
+    "url": "https://github.com/leetdavid/blk-theme"
   },
   "scripts": {
     "package": "vsce package",
     "publish": "vsce publish"
   },
   "publisher": "leetdavid",
-  "version": "0.1.9",
+  "version": "0.1.12",
   "engines": {
     "vscode": "^1.96.2"
   },
@@ -32,8 +32,5 @@
         "path": "./themes/blk-borderless.json"
       }
     ]
-  },
-  "devDependencies": {
-    "@vscode/vsce": "^3.5.0"
   }
 }
