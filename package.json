@@ -12,7 +12,7 @@
     "publish": "vsce publish"
   },
   "publisher": "leetdavid",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "engines": {
     "vscode": "^1.96.2"
   },
@@ -25,6 +25,11 @@
         "label": "BLK",
         "uiTheme": "vs-dark",
         "path": "./themes/blk.json"
+      },
+      {
+        "label": "BLK Borderless",
+        "uiTheme": "vs-dark",
+        "path": "./themes/blk-borderless.json"
       }
     ]
   },
