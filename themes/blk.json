@@ -1815,9 +1815,9 @@
     "listFilterWidget.outline": "#ffffff30",
     "listFilterWidget.noMatchesOutline": "#be1100",
 
-    "button.background": "#067acc",
-    "button.foreground": "#ffffff",
-    "button.hoverBackground": "#1784cc",
+    "button.background": "#fbbf24",
+    "button.foreground": "#000000",
+    "button.hoverBackground": "#fbc53a",
     "textLink.foreground": "#3794ff",
     "button.secondaryForeground": "#000000",
     "button.secondaryBackground": "#ededed",
